@@ -10,7 +10,7 @@ return {
     MAXCHARS = 500,
 
     -- minimum amount of words in a message to feed it to the chain
-    MINWORDS = 6,
+    MINWORDS = 3,
 
     -- amount of lookbehind words to use when creating new chains
     N = 2,
