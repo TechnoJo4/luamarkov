@@ -11,13 +11,7 @@ end
 file = json.decode(file)
 
 local people = {
-    ["4l3xk1ll"]=true,
-    ["bytemuck"]=true,
-    ["Cumputer Teamerz"]=true,
-    ["Khepri-sun"]=true,
-    ["prox"]=true,
-    ["TechnoJo4"]=true,
-    ["8zf6"]=true
+    ["TechnoJo4"]=true
 }
 
 local chain = require("init")
