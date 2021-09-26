@@ -11,5 +11,5 @@ return {
 
     MAXCHARS = 500,
 
-    BLACKLIST = {"http", "https"},
+    BLACKLIST = {"http", "https", "[https"},
 }
