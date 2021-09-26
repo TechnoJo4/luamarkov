@@ -3,7 +3,7 @@ local IRC = require("irc")
 local markov = require("chain")
 local discordia = require("discordia")
 
-local chain = markov.load("./osu_irc.json")
+local chain = markov.load("./bot/osu_irc.json")
 
 math.randomseed(os.time())
 
