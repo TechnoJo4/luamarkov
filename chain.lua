@@ -147,6 +147,9 @@ function mod.generate(chain, init)
     local s = #init-N
     for i=1,N do
         lb[i] = init[i+s] or NONE
+        if config.LOWER then
+            lb[i] = lb[i]:lower()
+        end
     end
 
     local len = -1
